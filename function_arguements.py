@@ -21,15 +21,14 @@
 
 # # Python Arbitrary Arguments
 
-def greet(*names):
-    """This function greets all the person in the names tuple."""
+# def greet(*names):
+#     """This function greets all the person in the names tuple."""
     
-    for name in names:
-         print(f'hello {name} , How are you ?!')
+#     for name in names:
+#          print(f'hello {name} , How are you ?!')
         
-greet('heba', 'hala' , 'ahmed')
+# greet('heba', 'hala' , 'ahmed')
 
-names = ['h', 'a', 'f', 'i']
-for name in names:
-    print(name)
+
+
 
