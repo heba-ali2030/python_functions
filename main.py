@@ -7,8 +7,19 @@
 
 import modules
 new = modules.add(3, 5)
-print(new)
+print(new) 
+new = modules. add (4,3)
+print (new)
 
-import math
+# import math as m 
+# print(m.pi)
 
-print(math.pi)
+# from math import pi
+# print (pi)
+
+# from math import *
+# print (pi)
+# print (e)
+
+# import sys
+# print(sys.path)
