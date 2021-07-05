@@ -54,17 +54,62 @@
 # print(a)
 
 
-def foo():
-    x = 20
+# def foo():
+#     x = 20
 
-    def bar():
-        global x
-        x = 25
+#     def bar():
+#         global x
+#         x = 25
     
-    print("Before calling bar: ", x)
-    print("Calling bar now")
-    bar()
-    print("After calling bar: ", x)
+#     print("Before calling bar: ", x)
+#     print("Calling bar now")
+#     bar()
+#     print("After calling bar: ", x)
 
-foo()
-print("x in main: ", x)
+# foo()
+# print("x in main: ", x)
+
+# def outerFunc():
+#   name = "Jack"
+
+#   def innerFunc():
+#     nonlocal name
+#     name = "Heba"
+    
+#   innerFunc() 
+#   return name
+
+# print(outerFunc())
+
+# my_list = [1, 5, 4, 6, 8, 11, 3, 12]
+# 1- create an empty list 
+# new_list = []
+# # loop to find even numbers and add them in the empty list
+# for num in my_list:
+#     if num % 2 == 0:
+#         new_list.append(num)       
+    
+# print(new_list)
+
+# for num in my_list:
+#     if num % 2 != 0:
+#         new_list.append(num)       
+
+# print(new_list)
+
+
+# def even (x):
+#     if x % 2 == 0:
+#         print (x)
+
+
+# integers = range(0, 10)
+# list(map(lambda x: x * x, integers))
+# new_list = []
+# for num in integers:
+#     new_list.append(num * 2)
+# print(new_list)
+
+
+
+

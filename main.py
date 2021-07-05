@@ -6,4 +6,9 @@
 
 
 import modules
-modules.add(3, 5)
+new = modules.add(3, 5)
+print(new)
+
+import math
+
+print(math.pi)
