@@ -6,9 +6,8 @@ def add(a, b):
     result = a + b
     return result
 
-# Reloading a module ??????
-import imp 
-import module2
-import module2
-imp.reload(module2)
-
+# # Reloading a module ??????
+# import imp 
+# import module2
+# import module2
+# imp.reload(module2)
